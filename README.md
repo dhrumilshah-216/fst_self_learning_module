@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ResearchFlow 🔬 
 
-## Getting Started
+ResearchFlow is a complete, scalable, and beautifully designed Research Collaboration & Experiment Tracking Platform. Built for lab teams, research organizations, and independent academicians seeking robust project execution with integrated reviews and insights pipelines.
 
-First, run the development server:
+## Project Overview 
+Modern researchers face structural overhead tracking hypothesis variations, datasets, observations, and literature. ResearchFlow unifies these verticals under single isolated project scopes while mapping all team activities asynchronously across an actionable audit and review trail perfectly suitable for institutional workflows.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features fully Implemented
+* **Robust Role-based Access Rules** (Lead/Member/Supervisor scopes).
+* **Research Project Workspaces** capturing structural tasks and goals mappings dynamically.
+* **Literature Tracking** binding authors, reads, and DOIs.
+* **Isolated Experiment Executions** tracking datasets limits, hyper-parameters alongside explicit unstructured Findings insights.
+* **Metrics Persistence** maintaining dynamic key bounds (ex. Accuracies, Losses) cleanly separated structurally bounding to generic experiment scopes cleanly.
+* **Supervisor Reviews Pipeline** trapping official 'Changes Requested' logic natively against experiment timelines securely.
+* **Activity & Audit Subsystem** automatically tracking Actor variations visualizing beautiful interactive visual timelines natively inside workspaces.
+* **Asynchronous Universal Email Alert Framework** using Resend / React Email for notification updates (webhook delivery state verifications mapping SVIX headers dynamically included).
+* **High Performance Output** heavily depending on Next.js Server Side features stripping heavy UI bloat significantly accelerating Largest Contentful Paint times cleanly.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Running Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Create a `.env` file referencing `.env.example` configurations (See below). Ensure PostgreSQL is running on your machine natively or through Docker.
+`DATABASE_URL="postgresql://user:pass@localhost:5432/researchflow"`
+2. Install package constraints.
+`npm install`
+3. Execute Prisma mappings aligning schema dependencies against PostgreSQL arrays recursively.
+`npx prisma db push`
+`npx prisma generate`
+4. Preload dataset arrays matching valid mock interactions using Faker ensuring local demonstrations pop successfully. 
+`npm run db:seed`
+5. Boot system instances matching deployment bounds. 
+`npm run dev`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Login dynamically using `lead@research.edu` passing password `password123`.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Architecture Note
+Check the `/docs` folder for intensive structural definitions capturing: Server Rendering behaviors vs UI Zustand maps, Authorization Pipeline boundaries securely blocking un-verified actors across actions globally, and detailed Schema mappings mapping foreign constraints specifically.

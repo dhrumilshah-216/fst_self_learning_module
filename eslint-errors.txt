@@ -1,0 +1,105 @@
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\actions\auth.actions.ts
+  13:47  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  45:14  warning  'err' is defined but never used           @typescript-eslint/no-unused-vars
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\actions\comment.actions.ts
+  16:45  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  60:14  warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\actions\experiment.actions.ts
+  19:51  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  31:15  warning  'exp' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  42:14  warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\actions\finding.actions.ts
+  16:48  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  47:14  warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\actions\literature.actions.ts
+  21:43  error    Unexpected any. Specify a different type    @typescript-eslint/no-explicit-any
+  34:15  warning  'paper' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  53:14  warning  'error' is defined but never used           @typescript-eslint/no-unused-vars
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\actions\membership.actions.ts
+  14:51  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  64:14  warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\actions\project.actions.ts
+  17:48  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\actions\question.actions.ts
+   5:10  warning  'z' is defined but never used             @typescript-eslint/no-unused-vars
+   9:46  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  27:14  warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\actions\review.actions.ts
+  16:47  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  79:14  warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\actions\task.actions.ts
+  18:45  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  59:14  warning  'error' is defined but never used         @typescript-eslint/no-unused-vars
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\app\api\og\route.tsx
+  86:17  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\app\api\webhooks\resend\route.ts
+  23:18  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  31:18  warning  'err' is defined but never used           @typescript-eslint/no-unused-vars
+  31:23  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  51:49  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\app\error.tsx
+  26:74  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\app\not-found.tsx
+  13:26  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\app\research\[projectId]\experiments\[experimentId]\page.tsx
+  4:10  warning  'PageHeader' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\components\layout\header.tsx
+   4:16  warning  'Search' is defined but never used             @typescript-eslint/no-unused-vars
+  14:11  warning  'pathname' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\components\project\comments-section.tsx
+  18:15  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\components\project\experiment-tab.tsx
+  4:10  warning  'FlaskConical' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\components\project\literature-tab.tsx
+  4:10  warning  'FileText' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\components\project\review-section.tsx
+  16:14  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\components\project\task-tab.tsx
+  4:10  warning  'CheckSquare' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\components\shared\notifications-dropdown.tsx
+  11:56  error    Unexpected any. Specify a different type                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 @typescript-eslint/no-explicit-any
+  19:18  warning  'e' is defined but never used                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            @typescript-eslint/no-unused-vars
+  23:9   error    Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\components\shared\notifications-dropdown.tsx:23:9
+  21 |
+  22 |     useEffect(() => {
+> 23 |         loadNotifications();
+     |         ^^^^^^^^^^^^^^^^^ Avoid calling setState() directly within an effect
+  24 |         const interval = setInterval(loadNotifications, 30000); // 30s poll
+  25 |         return () => clearInterval(interval);
+  26 |     }, []);  react-hooks/set-state-in-effect
+
+C:\Users\dhrum\OneDrive\Desktop\AI engineer\Project\fst\src\lib\activity.ts
+  11:16  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 41 problems (21 errors, 20 warnings)
+
